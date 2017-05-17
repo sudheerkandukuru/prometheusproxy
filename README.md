@@ -9,12 +9,14 @@ It allows us to optionally add labels to the collected metrics requested by the 
 
 - Make sure the GOPATH and GOBIN environment variables are set prior to building the application
  
-- Go to src/prometheusproxy and run 
+- Get the dependency packages - go to *src/prometheusproxy* and run 
+
 ```sh
 # go get 
-```.  
+```
 
-- Run 
+- To compile and install 
+
 ```sh
 go install prometheusproxy
 ```
