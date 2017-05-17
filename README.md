@@ -18,7 +18,7 @@ It allows us to optionally add labels to the collected metrics requested by the 
 - To compile and install 
 
 ```sh
-go install prometheusproxy
+# go install prometheusproxy
 ```
 
 If the build is successful, a new binary named ** prometheusproxy **  should now be available in project's ** bin ** directory:
