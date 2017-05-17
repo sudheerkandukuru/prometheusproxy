@@ -3,11 +3,21 @@
 The prometheusproxy proxies scraping requests initialized by the Prometheus collector based on configurable service names.  
 It allows us to optionally add labels to the collected metrics requested by the Prometheus collector.  
 
-#### Building the service  
-The service builds to a single binary.  
-To build the service simply execute **make**:  
+#### Building the service
 
-    make
+- Install GO 1.8.1 (if not already installed) and set the path
+
+- Make sure the GOPATH and GOBIN environment variables are set prior to building the application
+ 
+- Go to src/prometheusproxy and run 
+```sh
+# go get 
+```.  
+
+- Run 
+```sh
+go install prometheusproxy
+```
 
 If the build is successful, a new binary named ** prometheusproxy **  should now be available in project's ** bin ** directory:
 
